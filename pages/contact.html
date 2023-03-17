@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--ESTILOS CSS-->
+<link rel="stylesheet" href="../css/styles.css">
+    <title>Nico Galardo | Full Stack Dev</title>
+</head>
+<body>
+    <nav>
+        <h1>NICO GALARDO</h1>
+        <ul class="navigation">
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
+            <li><a href="./about.html" class="nav-link">Sobre Mi</a></li>
+            <li><a href="./skills.html" class="nav-link">Habilidades</a></li>
+            <li><a href="./projects.html" class="nav-link">Proyectos</a></li>
+            <li><a href="./contact.html" class="nav-link">Contacto</a></li>
+        </ul>        
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline">.</ion-icon>
+        </button>
+        </nav>
+        <section class="contact" id="contact">
+            <h2>¡Hablemos!</h2>
+            <div class="contact-form-container">
+                <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <div class="form-control">
+                    <label for="name">Nombre</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="sender-name"
+                        placeholder="Ingresa tu Nombre"
+                        class="input-field"
+                        required
+                    />
+                    </div>
+                    <div class="form-control">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="sender-email"
+                        placeholder="Ingresa tu Email"
+                        class="input-field"
+                        required
+                    />
+                    </div>
+                    <div class="form-control">
+                    <label for="message">Mensaje</label>
+                    <textarea
+                        id="message"
+                        cols="60"
+                        rows="10"
+                        placeholder="Ingresa tu Mensaje"
+                        name="message"
+                        class="input-field"
+                        required
+                    ></textarea>
+                    </div>
+                    <input
+                    type="submit"
+                    value="Enviar"
+                    id="submit-btn"
+                    class="submit-btn"
+                    />
+                </form>
+                </div>
+            </div>
+        </section>
+    
+</body>
+</html>
