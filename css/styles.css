@@ -18,14 +18,14 @@
 }
 /* Variables fin */
 
-
-
 /* CSS Resets */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*CSS Resets Fin*/
 
 html {
   scroll-behavior: smooth;
@@ -354,12 +354,13 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
+    height: 25.5rem;
     width: 23rem;
+    padding-bottom: 3rem;
   }
 
   .bio {
-    width: 18.3rem;
+    width: 17.3rem;
   }
 
   .project-container {
